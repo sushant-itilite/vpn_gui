@@ -1,9 +1,6 @@
 # VPN GUI
 Simple python gui interface script to toggle vpn on and off.
 
-### Pre-requisite
-python3 -m pip install requirements.txt
-
 ### Initial steps
 - open pass_vpn and enter the vpn password in that file.
 - copy and paste your vpn file in this folder.
