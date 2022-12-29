@@ -11,5 +11,3 @@ Simple python gui interface script to toggle vpn on and off.
 ### To Run
 You'll require to run following command and keep it running in background : 
 `python3 vpn_gui.py`
-
-![alt text](https://github.com/sushant-itilite/vpn_gui/blob/main/img.png)
