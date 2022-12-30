@@ -14,7 +14,7 @@ vpn_pass_file_path = dir+"/pass_vpn"   # file having password of your vpn
 def action():
     global pid, button
     if not pid:
-        proc = subprocess.Popen(f'echo "{sudo_password}" | sudo -S -k openvpn --client --config {openvpn_file_path} --askpass {vpn_pass_file_path}',
+        proc = subprocess.Popen(f'echo "{sudo_password}" | sudo -S -k openvpn --client --config "{openvpn_file_path}" --askpass "{vpn_pass_file_path}"',
                                     shell=True,
                                     stdin=subprocess.PIPE, 
                                     # stdout=subprocess.PIPE, 
